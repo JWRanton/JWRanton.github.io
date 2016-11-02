@@ -1,56 +1,77 @@
-/*
-Error: File to import not found or unreadable: bourbon.
-       Load path: /Users/DeathStar/JWRanton.github.io/scss
-        on line 1 of scss/main.scss
+body {
+  background-color: #FFB400; }
 
-1: @import "bourbon";
-2: 
-3: body {
-4:   background: #eee;
-5:   margin: 0;
-6:   font-family: Helvetica;
+.navbar-inverse {
+  background-color: #032B43;
+  margin-bottom: 2rem; }
 
-Backtrace:
-scss/main.scss:1
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:37:in `css_import?'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: bourbon.\A        Load path: /Users/DeathStar/JWRanton.github.io/scss\A         on line 1 of scss/main.scss\A \A 1: @import \"bourbon\";\A 2: \A 3: body {\A 4:   background: #eee;\A 5:   margin: 0;\A 6:   font-family: Helvetica;"; }
+.hero {
+  text-align: center; }
+  .hero img {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 250px; }
+  .hero h1 {
+    color: #032B43;
+    font-weight: 200;
+    padding-bottom: 5rem; }
+  .hero a {
+    color: #032B43; }
+  .hero .band1, .hero .band2, .hero .band3, .hero .band4, .hero .band5, .hero .band6, .hero .band7, .hero .band8, .hero .band9, .hero .band0 {
+    margin-bottom: .25rem;
+    background-color: #032B43; }
+  .hero .band1 {
+    height: .1rem; }
+  .hero .band2 {
+    height: .2rem; }
+  .hero .band3 {
+    height: .3rem; }
+  .hero .band4 {
+    height: .4rem; }
+  .hero .band5 {
+    height: .5rem; }
+  .hero .band6 {
+    height: .6rem; }
+  .hero .band7 {
+    height: .7rem; }
+  .hero .band8 {
+    height: .8rem; }
+  .hero .band9 {
+    height: .9rem; }
+  .hero .band0 {
+    height: 1rem; }
+
+hr {
+  border: .1em solid #FFB400; }
+
+.about {
+  margin-top: .25rem;
+  background-color: #032B43;
+  color: #FFB400;
+  text-align: left; }
+  .about .progress-bar-warning {
+    background-color: #FFB400; }
+  .about h2 {
+    font-weight: 400;
+    color: #fff; }
+  .about h4 {
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 1px; }
+  .about p {
+    font-size: 1.5em;
+    text-align: left; }
+
+.music h2 {
+  text-align: center; }
+.music hr {
+  border: 1px solid #032B43; }
+
+iframe {
+  padding: 2rem; }
+
+.footer {
+  text-align: center;
+  padding: 1.5rem; }
+
+/*# sourceMappingURL=main.css.map */
