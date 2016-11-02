@@ -1,0 +1,23 @@
+{
+  "name": "jwranton",
+  "version": "1.0.0",
+  "description": "Personal portfolio site for Justin Ranton",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JWRanton/JWRanton.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JWRanton/JWRanton.github.io/issues"
+  },
+  "homepage": "https://github.com/JWRanton/JWRanton.github.io#readme"
+}
